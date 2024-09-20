@@ -42,6 +42,11 @@ a:hover {
     color: #ff3300;
 }
 
+a:visited {
+    color: #c71585;
+    content: " 🌸";
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
