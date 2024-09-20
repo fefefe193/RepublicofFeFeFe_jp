@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
+    background: linear-gradient(to right, #f4f4f4 50%, #e8e8e8 50%);
     color: #333;
     margin: 0;
     padding: 20px;
@@ -20,10 +20,15 @@ h1 {
 ul {
     list-style-type: none;
     padding: 0;
+    width: 80%;
+    margin: auto;
 }
 
 li {
     margin: 10px 0;
+    background-color: #ffffff;
+    padding: 15px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
 }
 
 a {
